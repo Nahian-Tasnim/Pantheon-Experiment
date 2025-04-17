@@ -10,10 +10,12 @@ Some modification was made in the existing Pantheon framework.
 ## Project Structure:
 Pantheon-Experiment:
 1. graphs                   # Generated graphs for each scenario
-2. results (high_latency, low_latency)
-3. analyze.py               # Modified analysis script for generating graphs
-4. command_log.pdf          # Linux terminal command log for replication
-5. report.pdf               # Detailed experimental report
+2. results:
+=> high_latency            # Results of 1 Mbps, 200 ms RTT condition
+=> low_latency             # Results of 50 Mbps, 10 ms RTT condition
+4. analyze.py               # Modified analysis script for generating graphs
+5. command_log.pdf          # Linux terminal command log for replication
+6. report.pdf               # Detailed experimental report
 
 ## Replication Instructions:
 1. Install required dependencies.
