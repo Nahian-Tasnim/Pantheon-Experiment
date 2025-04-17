@@ -10,9 +10,7 @@ Some modification was made in the existing Pantheon framework.
 ## Project Structure:
 Pantheon-Experiment:
 1. graphs                   # Generated graphs for each scenario
-2. results
-1. high_latency             # Results of 1 Mbps, 200 ms RTT condition
-2. low_latency              # Results of 50 Mbps, 10 ms RTT condition
+2. results (high_latency, low_latency)
 3. analyze.py               # Modified analysis script for generating graphs
 4. command_log.pdf          # Linux terminal command log for replication
 5. report.pdf               # Detailed experimental report
