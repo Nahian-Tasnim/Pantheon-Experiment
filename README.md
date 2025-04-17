@@ -1,13 +1,13 @@
-## Pantheon Congestion Control Evaluation
+# Pantheon Congestion Control Evaluation
 This repository contains an experimental result analysis using the StanfordSNR Pantheon framework to evaluate congestion control algorithms (Cubic, BBR, and Vegas) under different network conditions using Mahimahi. 
 
-# Modifications:
+## Modifications:
 Some modification was made in the existing Pantheon framework.
 1. Minor modification to handle the errors raised during the experiment.
 2. Modification was done in the test.py to produce txt log files containing throughput, rtt and loss for each schemes.
 3. Changed the whole analyze.py to produce the desired graphs.
 
-# Project Structure:
+## Project Structure:
 Pantheon-Experiment/
 ├── analyze.py                 # Modified analysis script for generating graphs
 ├── results/
@@ -18,7 +18,7 @@ Pantheon-Experiment/
 ├── command_log.pdf            # Linux terminal command log for replication
 └── README_PA3.txt             # This file
 
-# Replication Instructions:
+## Replication Instructions:
 1. Install required dependencies.
 2. Clone pantheon.
 3. Install Python 2.7.18
